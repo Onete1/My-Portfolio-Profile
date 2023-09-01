@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Lilita One', cursive;
+}
+
+
+:root{
+    --main-color:#86C232;
+     --sm-headings:#61892f;
+     --bg-color:#222629;
+     --sm-fonts:#474b4f;
+     --lg-fonts:#6b6e70;
+}
+body{
+    background-image: url(https://thumbs.gfycat.com/PerfectYearlyAruanas-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+    /************** Nav Start************* */
+nav{
+    display: flex;
+    width: 100%;
+    background-color: #36892f96;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: fixed;
+}
+
+
+.onetech{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(1, 23, 2);
+    margin-left: 50px;
+    
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    padding-left: 30px;
+    margin-right: 20px;
+    color: wheat;
+}
+.navbar a:hover{
+    color: rgba(1, 23, 2, 0.537);
+    
+}
+
+
+  
+
+    /************** Home Start *****************/
+
+.home{
+     
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.home-container{
+    text-align: center;
+    width: 300px;
+    margin-top: 130px;
+    margin-right: 30px;
+}
+
+
+.home-container h3{
+    color: var(--sm-headings);
+    font-weight: bold;
+    font-size: 20px;
+}
+.home-container h1{
+    color: wheat;
+    font-weight: bolder;
+    font-size: 40px; 
+}
+.home-container p{
+    color: wheat;
+    font-weight: 350;
+    font-size: 12px;
+}
+.hire{
+    margin-top: 15px;
+}
+.hire:hover{
+    transform: scale(1.1);
+}
+
+.hire-me{
+    padding: 10px;
+    background-color: #61892f;
+    border-radius: 7px;
+    color: wheat;
+}
+.hire-me:hover{
+    color: rgba(1, 23, 2, 0.537);
+}
+.img-container{
+    background-color: #22262957;
+    border: solid #474b4f5a 10px;
+    margin-top: 130px;
+    margin-left: 30px;
+    border-radius: 30px;
+    padding: 17px;
+    box-shadow:  #60892f2f 5px 5px 20px 15px;
+}
+.img-container:hover{
+    cursor: pointer;
+    animation-name: pix-container;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes pix-container{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+
+}
+.img-container img:hover{
+    animation-name: pix-container;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+
+
+/********* About-me Start ********/
+.about{
+    padding: 70px;
+    margin-top: 50px;
+}
+.about-box{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.317);
+    margin-left: -25px;
+    margin-top: 45px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.about-box h1{
+    color: var(--sm-headings);
+    margin-top: 5px;
+}
+.about-box h3{
+    color: var(--lg-fonts);
+}
+.about-box p{
+    color: wheat;
+    margin-top: 10px;
+}
+.project-box a{
+    padding: 10px;
+    background-color: #61892f;
+    border-radius: 7px;
+    color: wheat;
+}
+.project-box{
+    margin-top: 20px;
+   
+}
+.project-box a:hover{
+    color: rgba(1, 23, 2, 0.537);
+}
+.project-box:hover{
+    transform: scale(1.1);
+    
+}
+
+
+/****************** Services Start ******************/
+
+#services{
+    margin-top: 80px;
+    padding: 90px;
+}
+
+.services h1{
+    text-align: center;
+    color: rgba(9, 23, 9, 0.537);
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+.service-container{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+.service-container1{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.service-container2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.icon1{
+    color: #61892f;
+    font-size: 100px;
+}
+.service-container1 p{
+    color: wheat;
+    padding: 20px;
+}
+.service-container2 p{
+    color: wheat;
+    padding: 20px;
+}
+
+/**************** Contact Start **************/
+footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: #222629a1;
+    margin-top: 80px;
+   
+}
+.contact{
+    padding: 40px;
+}
+.menu-link ul li a{
+    color: wheat;
+    display: block;
+}
+.menu-link ul li{
+    padding: 5px;
+    text-align: center;
+    margin-right: 80px;
+}
+.menu-link h3{
+    margin-left: 83px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: var(--sm-headings);
+}
+.menu-link ul li a:hover{
+    transform: translateX(15px);
+}
+.contact-us{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.contact-us h3{
+    color: var(--sm-headings);
+    font-size: 20px; 
+}
+  
+.contact-li{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-li a{
+    color: wheat;
+    width: 27px;
+    height: 30px;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 70px;
+    background-color: #61892f;
+}
+.contact-li a:hover{
+    transform: scale(1.1);
+}
+
+/****************** Screen Set **************/
+
+@media only screen and (max-width:770px){
+    .about-box{
+        height: 300px;
+    }
+
+    #services{
+       padding: 5px;
+       margin-right: 30px;
+    }
+    .service-container{
+        grid-template-columns: 300px 300px;
+    }
+
+}
+@media only screen and (max-width:600px){
+
+    .navbar a{
+        padding-left: 10px;
+        margin-right: 20px;
+    }    
+    .home{
+        grid-template-columns: none;
+    }
+    .home-container{
+        height: 100px;
+    }
+    .img-container{
+        margin-right: 50px;
+        height: 120px;
+        width: 150px;
+    }
+    .img-container img{
+        height: 120px;
+        width: 150px;
+    }
+    .about-box{
+        height: 350px;
+    }
+
+    .service-container{
+        grid-template-columns: 260px 260px;
+        margin-left: 20px;
+    }
+   
+
+}
+@media only screen and (max-width:500px){
+
+     /* Nabv-bar */
+
+
+    .onetech{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .navbar{
+        margin-right: 20px;
+    }
+    .navbar a{
+        font-size: 13px;
+        margin-right: 15px;
+    }
+
+    /* Home start */
+
+
+    .img-container{
+        margin-left: 150px;
+        margin-right: 150px;
+        width: 100px;
+        height: 85px;
+    }    
+    .img-container img{
+        height: 120px;
+        width: 110px;
+    }
+    .home{
+        display: grid;
+        grid-template-columns: none;
+
+    }
+    .img-container{
+        margin-left: 160px;
+        margin-right: 150px;
+       
+        
+    }    
+    .img-container img{
+        height: 80px;
+        width: 90px;
+    }
+    .home-container{
+        width: 280px;
+        margin-top: 150px;
+        margin-left: 95px;
+    }
+    .home-container h1{
+        font-size: 30px;
+    }
+    .home-container h3{
+        font-size: 15px;
+    }
+    
+    /* About Me Start */
+     
+    
+    .about-box h1{
+       font-size: 30px;
+    }
+    .about-box h3{
+        color: 20px;
+    }
+    .about-box p{
+        margin-top: 3px;
+        font-size: 12px;
+    } 
+    
+    /* Services Start */
+     
+
+    .service-container{
+        grid-template-columns: 200px 200px;
+    }
+    .services h1{
+        font-size: 25px;
+    }
+    .icon1{
+        font-size: 70px;
+    }
+    .service-container1 p{
+       font-size: 12px;
+    }
+    .service-container2 p{
+        font-size: 12px; 
+    }
+
+    /* Contact start */
+
+    .menu-link h3{
+        font-size: 15px;    
+    } 
+    .menu-link ul li{
+        font-size: 12px;
+        margin-left: 35px;
+    }
+
+    
+    .contact-li a{
+        width: 20px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width:420px){
+
+/* Nav Star */
+
+    .onetech{
+        font-size: 12px;
+    }
+    .navbar{
+        margin-right: 70px;
+    }
+    .navbar a{
+        font-size: 7px;
+        margin-right: 5px;
+    }
+    /* home start */
+
+    
+    .home-container{
+        width: 250px;
+    }
+  
+
+
+    /* about start */
+    
+    
+    .about-box{
+        height: 250px;
+    }
+    .about-box h1{
+        font-size: 20px;
+     }
+     .about-box h3{
+         font-size: 9px;
+     }
+     .about-box p{
+         margin-top: 3px;
+         font-size: 8px;
+     }
+     .project-box a{
+        font-size: 7px;
+     } 
+     
+
+     /* service start */
+
+    .service-container{
+        grid-template-columns: none;
+    }
+    .services h1{
+        font-size: 15px;
+    }
+    .service-container1{
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }    
+    .icon1{
+        font-size: 50px;
+    }
+    .service-container1 p{
+       font-size: 8px;
+    }
+    .service-container2 p{
+        font-size: 8px; 
+    }
+
+    /* contact start */
+
+
+    .contact{
+        padding: 10px;
+    }
+    .menu-link h3{
+        font-size: 10px;    
+    } 
+    .menu-link ul li{
+        font-size: 8px;
+        margin-left: 35px;
+    }
+    .contact-li{
+        display: grid;
+        margin-top: 10px;
+    }  
+    .contact-us h3{
+        font-size: 10px;
+        
+    }
+    .contact-li a{
+        width: 8px;
+        height: 10px;
+        font-size: 11px;
+        margin-top: 1px;
+        padding: 6px;
+    }
+         
+
+}
